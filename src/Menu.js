@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Menu = ({ items }) => {
+  const handleClick = (id) => {
+    if (id === 1) {
+      alert("We are working on it!");
+    } else if (id === 2) {
+      window.open("https://github.com/flavio2990/Our-Reviews", "_blank");
+    }else if (id === 5) {
+      window.open("https://github.com/flavio2990/my-lil-lemon", "_blank");
+    }
+  };
+
+
   return <div className='section-center'>
     {items.map((menuItem) => {
       const { id, title, img, desc, goto } = menuItem;
@@ -9,7 +20,9 @@ const Menu = ({ items }) => {
         <div className='item-info'>
           <header>
             <h4>{title}</h4>
-            <button className='filter-btn'>{goto}</button>
+            <button className="filter-btn" onClick={() => handleClick(id)}>
+              {goto}
+            </button>
           </header>
           <p className='item-text'>{desc}</p>
         </div>
