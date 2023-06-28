@@ -8,6 +8,8 @@ const Menu = ({ items }) => {
       window.open("https://github.com/flavio2990/Our-Reviews", "_blank");
     }else if (id === 5) {
       window.open("https://github.com/flavio2990/my-lil-lemon", "_blank");
+    }else if (id === 6) {
+      window.open("https://github.com/flavio2990/stripes", "_blank");
     }
   };
 
