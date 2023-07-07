@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
+import Footer from './Footer';
 import items from './data';
+import AboutMe from './AboutMe';
 import { IonIcon } from '@ionic/react';
 import { mailOutline, logoGithub, documentTextOutline, logoLinkedin } from 'ionicons/icons';
 import FlavioLogo from './images/FlavioLogo.jpeg';
@@ -59,6 +61,10 @@ function App() {
           />
           <Menu items={menuItems}
           />
+          <div>
+            <AboutMe/>
+          <Footer/>
+          </div>
         </section>
       </main>;
     }

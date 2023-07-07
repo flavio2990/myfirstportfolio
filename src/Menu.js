@@ -3,11 +3,13 @@ import React from 'react';
 const Menu = ({ items }) => {
   const handleClick = (id) => {
     if (id === 1) {
-      alert("We are working on it!");
+      window.open("https://flavio2990.github.io/themenu/","_blanck")
     } else if (id === 2) {
-      window.open("https://github.com/flavio2990/Our-Reviews", "_blank");
-    }else if (id === 5) {
+      window.open("https://flavio2990.github.io/ourreviews/", "_blank");
+    } else if (id === 5) {
       window.open("https://github.com/flavio2990/my-lil-lemon", "_blank");
+    } else if (id === 6) {
+      window.open("https://flavio2990.github.io/stripes/", "_blank");
     }
   };
 
