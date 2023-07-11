@@ -248,15 +248,16 @@ Menu
 }
 .Flavio {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 10px;
+  left: 10px;
   max-width: 100px;
   height: auto;
   border-radius: 5px;
+  box-shadow: 0 0 10px 5px var(--clr-gold);
 }
 .icon-row {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
     justify-content: center;
   }
@@ -273,7 +274,7 @@ Menu
 .icon-container {
   display: flex;
   justify-content: flex-end;
-  align-items:baseline;
+  align-items: center;
   gap: 1rem;
   margin-right: 0;
   margin-bottom: 0.5rem;
