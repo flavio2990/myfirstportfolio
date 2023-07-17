@@ -4,7 +4,6 @@ const menu = [
     title: 'Menues',
     category: 'React.js',
     goto: `'let's see'`,
-    // img: './images/item-1.jpeg',
     img: require('./images/ourmenu.jpeg'),
     desc: `Designed to display the menu of a food and beverage establishment, allowing users to explore the different items available and obtain relevant information about each one of them. `,
   },
