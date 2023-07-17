@@ -22,7 +22,7 @@ export default function Header() {
                     onClick={() => window.open("https://github.com/flavio2990")}
                     className="icon"
                 />
-                <a href={require('../src/images/FlavioCV.pdf')} target="_blank" rel="noopener noreferrer" className="no-highlight">
+                <a href={require('../src/images/flavioCV.pdf')} target="_blank" rel="noopener noreferrer" className="no-highlight">
                     <IonIcon icon={documentTextOutline} size="large" className="icon" />
                 </a>
                 <IonIcon

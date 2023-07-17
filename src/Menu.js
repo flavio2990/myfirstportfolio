@@ -11,6 +11,12 @@ const Menu = ({ items }) => {
     } else if (id === 6) {
       window.open("https://flavio2990.github.io/stripes/", "_blank");
     }
+    else if (id === 3) {
+      window.open("https://github.com/flavio2990/little-lemon-RN", "_blank")
+    }
+    else if (id === 4) {
+      alert('This is a private repository, Sorry :)')
+    }
   };
 
 
